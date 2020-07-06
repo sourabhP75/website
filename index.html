@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Everytime Gym</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg visible-xs">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Everytime Gym</h1></a>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-menu-hamburger"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+917395941905">
+                <span>+917395941905</span></a><div>* For Personal Training</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+917395941905">
+    <span class="glyphicon glyphicon-earphone"></span>
+    +917395941905
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* For Personal Training</div>
+
+  <div id="main-content" class="container"></div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+
+        <section id="newsletter" class="col-sm-4" >
+          <span>Join Our Newsletter</span><br>
+          Be the first to receive exciting news, features, and special offers from Everytimegym.com!<br>
+          <form >
+            <label for="email"></label>
+            <input type="email" placeholder="Enter Email" name="email" required >
+            <input type="submit" value="Submit">
+          </form>
+          <hr class="visible-xs">
+        </section>
+
+        <section id="social" class="col-sm-4">
+          <span>Connect with us</span><br>
+          <a href="https://www.facebook.com/shivam0071kumar" target="_blank"  >
+            <div id="facebook-img" alt="Logo image"></div>
+          </a>
+          <a href="https://twitter.com/Shivam07Kr" target="_blank"  >
+            <div id="twitter-img" alt="Logo image"></div>
+          </a>
+          <a href="https://www.instagram.com/shivam._.kumar/" target="_blank" >
+            <div id="instagram-img" alt="Logo image"></div>
+          </a>
+          <hr class="visible-xs">
+        </section>
+
+        <section id="testimonials" class="col-sm-4">
+          <p>"The worst thing I can be is the same as everybody else."
+            - Arnold Schwarzenegger</p>
+          <p>“If I Have To Die Tonight , If This Weight Is Going To Kill Me Tonight, SO BE IT! I’m Dying Where I Wanna Be."
+            - Kai Greene</p>
+        </section>
+
+      </div>
+      <div class="text-center">&copy; Copyright Everytime Gym 2020</div>
+    </div>
+  </footer>
+
+ 
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
